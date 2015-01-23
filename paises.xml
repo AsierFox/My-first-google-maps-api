@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pais>
+	<provincia>
+		<nombre>Bizkaia</nombre>
+		<ciudad>Bilbao</ciudad>
+		<ciudad>Portugalete</ciudad>
+		<ciudad>Barakaldo</ciudad>
+	</provincia>
+	<provincia>
+		<nombre>Alava</nombre>
+		<ciudad>Amurrio</ciudad>
+		<ciudad>Vitoria</ciudad>
+	</provincia>
+	<provincia>
+		<nombre>Huesca</nombre>
+		<ciudad>Cinca Medio</ciudad>
+	</provincia>
+	<provincia>
+		<nombre>Barcelona</nombre>
+		<ciudad>Badalona</ciudad>
+		<ciudad>Rubi</ciudad>
+		<ciudad>Barcelona</ciudad>
+		<ciudad>Castelldefels</ciudad>
+	</provincia>
+	<provincia>
+		<nombre>Madrid</nombre>
+		<ciudad>Alcorcon</ciudad>
+		<ciudad>Parla</ciudad>
+		<ciudad>Mostoles</ciudad>
+		<ciudad>Getafe</ciudad>
+	</provincia>
+	<provincia>
+		<nombre>Cadiz</nombre>
+		<ciudad>Rota</ciudad>
+		<ciudad>Cadiz</ciudad>
+		<ciudad>Ubrique</ciudad>
+		<ciudad>Puerto Real</ciudad>
+	</provincia>
+</pais>

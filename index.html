@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio Paises</title>
+		<link rel="stylesheet" href="css/pure.css">
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+<body onload="loadProvincias()">
+	
+	<h1>AJAX XML Provincias</h1>
+	<div class="margen row medium-2 columns">
+		<div class="pure-form pure-form-stacked">
+			<button class="pure-button pure-button-primary" onclick="showAll()">Mostrar Todas las Provincias</button>
+			<label>
+				<select id="selProvincias" onchange="loadCiudades()">
+					<option>Mostrar Provincia de...</option>
+				</select>
+			</label>
+			<input type="search" onkeyup="searchProvincia(this.value)" />
+		</div>
+	</div>
+	<div id="rescontent">
+		<div id="res"></div>
+	</div>
+
+	<div id="googleMap" style="position:absolute;top:20%;left:45%;width:500px;height:380px;"></div>
+	
+	<!-- Scripts -->
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

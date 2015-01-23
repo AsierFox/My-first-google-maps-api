@@ -1,0 +1,20 @@
+h1, .margen {
+	margin-top: 1.2em;
+	margin-left: 1.2em;
+}
+.margen {
+	margin-left: 3em;
+}
+#rescontent {
+	position: absolute;
+	top: 6em;
+	left: 20em;
+	width: 65%;
+	overflow: hidden;
+}
+.galeria {
+	margin-top: 15px;
+}
+#res {
+	width: 20%;
+}
